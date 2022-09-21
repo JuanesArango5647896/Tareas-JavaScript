@@ -27,13 +27,18 @@ class Equipo {
         this.ciudad = ciudad;
     }
     stadio(){
-        let Stadium = "Anfield";
+        let Stadium = "Estadio: Anfield";
         return Stadium;
+    }
+    city(){
+        let ciudad = "Ciudad: Liverpool";
+        return ciudad;
     }
 }
 
 const EquipoUno = new Equipo();
 console.log(EquipoUno.stadio());
+console.log(EquipoUno.city());
 
 //Clase hija mia
 
