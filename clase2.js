@@ -58,12 +58,12 @@ console.log(cars.length);
 console.log(carNames.length);
 console.log(cities.length);
 
-//.push() Elimina el ultimo del arreglo
+//.push() Agrega a lo ultimo del arreglo
 
 cars.push("CHALLENGE", "CORVETTE");
 console.log(cars);
 
-//.pop()
+//.pop() Elimina el ultimo del arreglo
 
 cars.pop();
 console.log(cars);
